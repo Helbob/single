@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      img {
+        width: 100%;
+        border-radius: 10px;
+        border: 2px solid rgb(114, 161, 192);
+      }
+
+      main {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      }
+
+      div {
+        border: 2px rgb(114, 161, 192) solid;
+        border-radius: 20px;
+        padding: 5%;
+        margin: 2%;
+        background-color: rgba(96, 176, 179, 0.514);
+      }
+
+      h2 {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+
+      p {
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      }
+
+      .valgt {
+        background-color: rgb(192, 99, 99);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Alle</h1>
+      <nav>
+        <button data-troende="alle" class="valgt">Alle</button>
+        <button data-troende="ja">Troende</button>
+        <button data-troende="nej">Ikke troende</button>
+        <button data-troende="tvivler">Tvivler</button>
+      </nav>
+    </header>
+    <main></main>
+    <div>
+      <img src="" alt="" class="billede" />
+      <h2 class="navn"></h2>
+      <p></p>
+    </div>
+  </body>
+
+  <script></script>
+</html>
